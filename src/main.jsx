@@ -4,13 +4,14 @@ import App from "./App.jsx";
 import "./index.css";
 import { Provider } from "react-redux";
 import store from "./store/store.js";
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import {
   Login,
   AuthLayout,
   Signup,
   AllPosts,
   AddPost,
+  Home,
   EditPost,
   Post,
 } from "./components/index.js";

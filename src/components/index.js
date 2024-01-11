@@ -12,6 +12,11 @@ import PostForm from "./post-form/postForm.jsx";
 import PostCard from "./postCard.jsx";
 import AuthLayout from "../authLayout.jsx";
 import Input from "./input.jsx";
+import AddPost from "../pages/addPost.jsx";
+import EditPost from "../pages/editPost.jsx";
+import AllPosts from "../pages/allPost.jsx";
+import Post from "../pages/post.jsx";
+import Home from "../pages/home.jsx";
 export {
   Header,
   Footer,
@@ -27,4 +32,9 @@ export {
   AuthLayout,
   Input,
   Select,
+  EditPost,
+  AddPost,
+  AllPosts,
+  Post,
+  Home,
 };

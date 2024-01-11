@@ -5,7 +5,7 @@ import { Container, Button } from "../components/index.js";
 import parse from "html-react-parser";
 import { useSelector } from "react-redux";
 
-const Post = () => {
+export default function Post() {
   const [post, setPost] = useState(null);
   const { slug } = useParams();
   const navigate = useNavigate();
@@ -62,6 +62,4 @@ const Post = () => {
       </Container>
     </div>
   ) : null;
-};
-
-export default Post;
+}
